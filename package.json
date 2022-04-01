@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/buffer-alloc-unsafe",
+  "version": "0.0.0",
+  "description": "Allocate a buffer having a specified number of bytes.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/buffer-alloc-unsafe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "data",
+    "structure",
+    "buffer",
+    "buf",
+    "binary",
+    "octets",
+    "reallocate",
+    "allocate",
+    "alloc",
+    "unsafe"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
