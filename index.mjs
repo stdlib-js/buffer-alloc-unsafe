@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-function@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs";var s=e(t.allocUnsafe),i=n,o=r,a=t;var d=n,m=r,l=t;var f=s?function(e){if(!i(e))throw new TypeError(o("invalid argument. Must provide a nonnegative integer. Value: `%s`.",e));return a.allocUnsafe(e)}:function(e){if(!d(e))throw new TypeError(m("invalid argument. Must provide a nonnegative integer. Value: `%s`.",e));return new l(e)};export{f as default};
-//# sourceMappingURL=index.mjs.map
