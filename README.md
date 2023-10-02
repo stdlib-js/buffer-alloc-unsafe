@@ -45,19 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/buffer-alloc-unsafe
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/buffer-alloc-unsafe/tags). For example,
-
-```javascript
-import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@v0.1.0-esm/index.mjs';
+var allocUnsafe = require( '@stdlib/buffer-alloc-unsafe' );
 ```
 
 #### allocUnsafe( size )
@@ -94,13 +105,8 @@ var buf = allocUnsafe( 10 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@esm/index.mjs';
+```javascript
+var allocUnsafe = require( '@stdlib/buffer-alloc-unsafe' );
 
 var buf;
 var i;
@@ -110,10 +116,6 @@ for ( i = 0; i < 100; i++ ) {
     buf = allocUnsafe( 100 );
     console.log( buf.toString() );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -155,7 +157,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -185,8 +187,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/buffer-alloc-unsafe.svg
 [npm-url]: https://npmjs.org/package/@stdlib/buffer-alloc-unsafe
 
-[test-image]: https://github.com/stdlib-js/buffer-alloc-unsafe/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/buffer-alloc-unsafe/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/buffer-alloc-unsafe/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/buffer-alloc-unsafe/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/buffer-alloc-unsafe/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/buffer-alloc-unsafe?branch=main
@@ -217,15 +219,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor/tree/esm
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
-[@stdlib/buffer/from-array]: https://github.com/stdlib-js/buffer-from-array/tree/esm
+[@stdlib/buffer/from-array]: https://github.com/stdlib-js/buffer-from-array
 
-[@stdlib/buffer/from-arraybuffer]: https://github.com/stdlib-js/buffer-from-arraybuffer/tree/esm
+[@stdlib/buffer/from-arraybuffer]: https://github.com/stdlib-js/buffer-from-arraybuffer
 
-[@stdlib/buffer/from-buffer]: https://github.com/stdlib-js/buffer-from-buffer/tree/esm
+[@stdlib/buffer/from-buffer]: https://github.com/stdlib-js/buffer-from-buffer
 
-[@stdlib/buffer/from-string]: https://github.com/stdlib-js/buffer-from-string/tree/esm
+[@stdlib/buffer/from-string]: https://github.com/stdlib-js/buffer-from-string
 
 <!-- </related-links> -->
 
