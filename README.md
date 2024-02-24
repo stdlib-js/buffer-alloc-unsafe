@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@deno/mod.js';
+import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@v0.2.1-deno/mod.js';
 ```
 
 #### allocUnsafe( size )
@@ -90,7 +90,7 @@ var buf = allocUnsafe( 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@deno/mod.js';
+import allocUnsafe from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@v0.2.1-deno/mod.js';
 
 var buf;
 var i;
