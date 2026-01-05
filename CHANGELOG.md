@@ -2,6 +2,42 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-01-05)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`374b631`](https://github.com/stdlib-js/stdlib/commit/374b6311d0d676952c1f8341f4d6fffb951fce28) - **bench:** refactor to use string interpolation in `buffer/alloc-unsafe` [(#9531)](https://github.com/stdlib-js/stdlib/pull/9531) _(by Shubham)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Shubham
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
